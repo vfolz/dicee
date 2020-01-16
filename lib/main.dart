@@ -60,14 +60,3 @@ class _DicePageState extends State<DicePage> {
     );
   }
 }
-
-
-List getDice(){
-
-  var left = Random().nextInt(6)+1;
-  var right = Random().nextInt(6)+1;
-  return [left,right];
-
-
-
-}
